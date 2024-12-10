@@ -8,3 +8,5 @@ Aplikacja bedzie używała Języka Java oraz połączeniem z bazą danych MySQL
 * [v0.1.0-pre-alpha](#v0.1.0-pre-alpha)
 ### v0.1.0-pre-alpha
 stworzenie projektu oraz początkowy pomysł bazy danych.
+### v0.1.1-pre-alpha
+Stworzenie początkowego zamysłu aplikacji w Java
