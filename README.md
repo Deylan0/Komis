@@ -6,6 +6,7 @@ Aplikacja bedzie używała Języka Java oraz połączeniem z bazą danych MySQL
 
 ## Spis treści dziennika zmian
 * [v0.1.0-pre-alpha](#v0.1.0-pre-alpha)
+* [v0.1.1-pre-alpha](#v0.1.1-pre-alpha)
 ### v0.1.0-pre-alpha
 stworzenie projektu oraz początkowy pomysł bazy danych.
 ### v0.1.1-pre-alpha
