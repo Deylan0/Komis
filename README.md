@@ -7,8 +7,11 @@ Aplikacja bedzie używała Języka Java oraz połączeniem z bazą danych MySQL
 ## Spis treści dziennika zmian
 * [v0.1.0-pre-alpha](#v0.1.0-pre-alpha)
 * [v0.1.1-pre-alpha](#v0.1.1-pre-alpha)
+* [v0.2.0-pre-alpha](#v0.2.0-pre-alpha)
 ## Dziennik zmian
 ### v0.1.0-pre-alpha
 stworzenie projektu oraz początkowy pomysł bazy danych.
 ### v0.1.1-pre-alpha
 Stworzenie początkowego zamysłu aplikacji w Java
+### v0.2.0-pre-alpha
+Stworzenie systemu tworzenia konta
