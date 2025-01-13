@@ -1,4 +1,4 @@
-class Motorbike extends Pojazd {
+class Motorbike extends Vehicle {
     private boolean haveTrunk;
 
     public Motocykl(String brand, String model, double price, boolean haveTrunk) {
@@ -9,6 +9,6 @@ class Motorbike extends Pojazd {
     @Override
     public void showInfo() {
         super.showInfo();
-        System.out.println("Kufry: " + (haveTrunk ? "Tak" : "Nie"));
+        System.out.println("Trunk: " + (haveTrunk ? "Yes" : "No"));
     }
 }
