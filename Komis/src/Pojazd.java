@@ -1,28 +1,28 @@
 
-class Pojazd {
-    private String marka;
+class vehicle {
+    private String brand;
     private String model;
-    private double cena;
+    private double price;
 
-    public Pojazd(String marka, String model, double cena) {
-        this.marka = marka;
+    public Pojazd(String brand, String model, double price) {
+        this.brand = brand;
         this.model = model;
-        this.cena = cena;
+        this.price = price;
     }
 
-    public String getMarka() {
-        return marka;
+    public String getBrand() {
+        return brand;
     }
 
     public String getModel() {
         return model;
     }
 
-    public double getCena() {
-        return cena;
+    public double getPrice() {
+        return price;
     }
 
     public void wyswietlInformacje() {
-        System.out.println("Marka: " + marka + ", Model: " + model + ", Cena: " + cena);
+        System.out.println("Marka: " + brand + ", Model: " + model + ", Cena: " + price);
     }
 }
