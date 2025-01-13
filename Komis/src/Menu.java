@@ -31,7 +31,7 @@ public class Menu{
         String email = input.nextLine();
         System.out.println("Input password");
         String pass = input.nextLine();
-        String query = "INSERT INTO `users`(`imie`, `nazwisko`, `email`, `haslo`, `rodzaj_konta`) VALUES ('"+name+"','"+username+"','"+email+"','"+pass+"','user')";
+        String query = "INSERT INTO `users`(`name`, `surname`, `email`, `password`, `account_type`) VALUES ('"+name+"','"+username+"','"+email+"','"+pass+"','user')";
         MysqlCon.insert(query);
         Start();
     }
