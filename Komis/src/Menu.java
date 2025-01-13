@@ -23,15 +23,15 @@ public class Menu{
         Start();
     }
     private void signIn() throws Exception {
-        System.out.println("Podaj imie:");
+        System.out.println("Input Name:");
         String name = input.nextLine();
-        System.out.println("Podaj Nazwisko");
+        System.out.println("Input Surname");
         String username = input.nextLine();
-        System.out.println("Podaj email");
+        System.out.println("Input email");
         String email = input.nextLine();
-        System.out.println("podaj haslo");
+        System.out.println("Input password");
         String pass = input.nextLine();
-        String query = "INSERT INTO `users`(`imie`, `nazwisko`, `email`, `haslo`, `rodzaj_konta`) VALUES ('"+name+"','"+username+"','"+email+"','"+pass+"','user')";
+        String query = "INSERT INTO `users`(`name`, `surname`, `email`, `password`, `account_type`) VALUES ('"+name+"','"+username+"','"+email+"','"+pass+"','user')";
         MysqlCon.insert(query);
         Start();
     }
