@@ -5,16 +5,19 @@ import java.util.Scanner;
 public class Menu{
     Scanner input = new Scanner(System.in);
     MysqlCon MysqlCon = new MysqlCon();
+    Temp Temp = new Temp();
     public void Start() throws Exception {
         System.out.println("1.LOGIN \b 2.SIGNIN");
-        int i=input.nextInt();
+        int i = input.nextInt();
         input.nextLine();
 
-        if(i == 1){
+        if (i == 1) {
             logIn();
         } else if (i == 2) {
             signIn();
-        }else {
+        }else if(i == 3){
+            Temp.tempUsers();
+        }else{
             System.out.println("Wrong input");
         }
     }

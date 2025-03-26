@@ -1,9 +1,9 @@
 class Car extends Vehicle {
     private int doorsCount;
 
-    public Samochod(String brand, String model, double price, int doorsCount) {
+    public Car(String brand, String model, double price, int doorsCount) {
         super(brand, model, price);
-        this.ldoorsCount = doorsCount;
+        this.doorsCount = doorsCount;
     }
 
     @Override
