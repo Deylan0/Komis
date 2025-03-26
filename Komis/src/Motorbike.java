@@ -1,7 +1,7 @@
 class Motorbike extends Vehicle {
     private boolean haveTrunk;
 
-    public Motorbike(String brand, String model, double price, boolean haveTrunk) {
+    public Motocykl(String brand, String model, double price, boolean haveTrunk) {
         super(brand, model, price);
         this.haveTrunk = haveTrunk;
     }

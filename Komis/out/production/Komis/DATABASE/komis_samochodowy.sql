@@ -119,12 +119,12 @@ CREATE TABLE `samochody_sprzedane` (
 
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
-  `name` varchar(40) DEFAULT NULL,
-  `surname` varchar(40) DEFAULT NULL,
+  `imie` varchar(40) DEFAULT NULL,
+  `nazwisko` varchar(40) DEFAULT NULL,
   `login` varchar(40) DEFAULT NULL,
-  `password` varchar(40) DEFAULT NULL,
-  `age` int(11) DEFAULT NULL,
-  `account_type` varchar(40) DEFAULT 'user'
+  `haslo` varchar(40) DEFAULT NULL,
+  `wiek` int(11) DEFAULT NULL,
+  `rodzaj_konta` varchar(40) DEFAULT 'user'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
