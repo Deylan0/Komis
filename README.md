@@ -8,6 +8,7 @@ The application will use Java and connect to the MySQL database
 * [v0.1.0-pre-alpha](#v0.1.0-pre-alpha)
 * [v0.1.1-pre-alpha](#v0.1.1-pre-alpha)
 * [v0.2.0-pre-alpha](#v0.2.0-pre-alpha)
+* [v0.2.1-pre-alpha](#v0.2.1-pre-alpha)
 ## Changelog
 ### v0.1.0-pre-alpha
 creation of the project and the initial idea of ​​the database.
@@ -15,3 +16,5 @@ creation of the project and the initial idea of ​​the database.
 Creation of the initial idea of ​​the application in Java
 ### v0.2.0-pre-alpha
 Creation of the account creation system
+### v0.2.1-pre-alpha
+small fixes to the code, Added 35000 users in the databse for general tests.
