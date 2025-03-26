@@ -4,7 +4,7 @@ class Vehicle {
     private String model;
     private double price;
 
-    public Pojazd(String brand, String model, double price) {
+    public Vehicle(String brand, String model, double price) {
         this.brand = brand;
         this.model = model;
         this.price = price;
@@ -22,7 +22,7 @@ class Vehicle {
         return price;
     }
 
-    public void wyswietlInformacje() {
+    public void showInfo() {
         System.out.println("Marka: " + brand + ", Model: " + model + ", Cena: " + price);
     }
 }
